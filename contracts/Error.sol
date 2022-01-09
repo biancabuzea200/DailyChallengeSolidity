@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Error {
 
-    //rewuire: used to validate inputs and conditions before execution
+    //require: used to validate inputs and conditions before execution
     //revert similar to require, for more complex consitions
     //assert: used to check for called that should be always true(invariants), falling assertion means there s a bug
     function testRequire( uint _i) public pure{
