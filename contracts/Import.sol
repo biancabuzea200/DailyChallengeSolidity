@@ -20,8 +20,11 @@ contract foo {
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//import "Foo.sol" from current directory
 import "./Foo.sol";
 
+
+//import {symbol as alias, symbol2} from "filename";
 import {Unauthorized, add as func, Point} from "./Foo.sol";
 
 contract Import {
