@@ -18,6 +18,7 @@ contract Payable {
     function notPayable() public {}
 
     function withdraw() public {
+        //get the amount of ether stored in this contract
         uint amount = address(this).balance;
         (bool success, ) = owner.call {value: amount}("");
         require(success, "failed to send ether");
