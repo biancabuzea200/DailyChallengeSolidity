@@ -14,3 +14,6 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+ <a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/l8l4zp7iwkdaidk3nvl8" alt="trackgit-views" />
+</a>
